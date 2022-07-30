@@ -27,11 +27,6 @@ const Toggle = () => {
           drawerToggle && styles.close__line1
         }`}
       ></span>
-      {/* <span
-        className={`${styles.line2} ${styles.lines} ${
-          drawerToggle && styles.close__line2
-        }`}
-      ></span> */}
       <span
         className={`${styles.line2} ${styles.lines} ${
           drawerToggle && styles.close__line2
