@@ -45,11 +45,7 @@
 }
 
 .line2 {
-    top: 49%;
-}
-
-.line3 {
-    top: 78%;
+    top: 70%;
 }
 
 .close__line1 {
@@ -58,10 +54,6 @@
 }
 
 .close__line2 {
-    display: none;
-}
-
-.close__line3 {
     transform: rotate(-45deg);
     top: 50%;
 }
