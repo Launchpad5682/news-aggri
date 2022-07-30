@@ -1,0 +1,23 @@
+/* CSS variables containing colors, max-width*/
+
+:root {
+    --primary-color: #1A202C;
+    --secondary-color: #F7FAFC;
+    --text-color: #000000;
+    --max-width: 120rem;
+    --header-height: 6.5rem;
+    --padding-horizontal: 2rem;
+    --padding-vertical: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
