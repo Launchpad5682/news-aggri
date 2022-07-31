@@ -6,8 +6,9 @@
     --text-color: #000000;
     --max-width: 120rem;
     --header-height: 6.5rem;
-    --padding-horizontal: 2rem;
-    --padding-vertical: 4rem;
+    --padding-sm: 2rem;
+    --padding-md: 4rem;
+    --border-sm: 1rem;
 }
 
 * {
