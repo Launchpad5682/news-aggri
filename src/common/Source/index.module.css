@@ -1,0 +1,19 @@
+.source__name {
+    font-size: 2.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    padding: 1rem var(--padding-sm);
+    border-radius: var(--border-sm);
+}
+
+.source__active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.source__name:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 700;
+}

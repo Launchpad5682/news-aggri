@@ -4,9 +4,11 @@
     width: 100%;
     max-width: 30rem;
     height: 100%;
+    overflow-y: auto;
     position: absolute;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: var(--padding-sm);
+    z-index: 10;
 }
 
 .drawer__on {
@@ -14,6 +16,7 @@
     left: 0;
     height: 100%;
     transition: left 0.5s ease-out;
+    box-shadow: 5px 0 1rem var(--primary-color);
 }
 
 .drawer__off {
@@ -60,7 +63,7 @@
 
 /* Media Queries */
 
-@media (min-width: 420px) {
+@media (min-width: 900px) {
     .drawer {
         display: none;
     }

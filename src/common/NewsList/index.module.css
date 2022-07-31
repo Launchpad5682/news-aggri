@@ -1,0 +1,8 @@
+.news__list {
+    padding: var(--padding-sm);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 100%;
+    height: 100%;
+}

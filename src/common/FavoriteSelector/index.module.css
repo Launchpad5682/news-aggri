@@ -1,0 +1,10 @@
+.favorite__icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+    .favorite__icon {
+        font-size: 2.5rem;
+    }
+}

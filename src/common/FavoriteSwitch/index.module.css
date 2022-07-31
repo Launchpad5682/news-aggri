@@ -1,0 +1,46 @@
+.favorite__container {
+    padding: 0 var(--padding-sm);
+    background-color: var(--primary-color);
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    color: var(--secondary-color);
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.toggle__container {
+    margin-left: auto;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    position: relative;
+}
+
+.toggle {
+    background-color: var(--primary-color);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid var(--secondary-color);
+}
+
+.toggle__off {
+    left: 3px;
+    transition: left 0.5s ease-out;
+}
+
+.toggle__on {
+    left: 2.5rem;
+    transition: left 0.5s ease-out;
+}
+
+.toggle__container__on {
+    background-color: #A0AEC0;
+}

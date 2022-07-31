@@ -1,0 +1,26 @@
+.source__heading{
+    padding: 0 var(--padding-sm);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.sources{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 1rem;
+}
+
+.sourceslist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.favorite{
+    margin-top: auto;
+}

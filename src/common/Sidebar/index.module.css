@@ -1,0 +1,13 @@
+.sidebar {
+    display: none;
+}
+
+@media screen and (min-width: 900px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 100%;
+        overflow-y: auto;
+    }
+}
